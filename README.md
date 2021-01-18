@@ -1,4 +1,5 @@
 # Restful API with JWT token based Authentication
+JSON Web Token is an Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims.
 ![JWT](https://drive.google.com/uc?export=view&id=1V-gPjbrpXrL1yI03DgOxzT38Dq40MUpF)
 ## Maven Dependences
 ````
