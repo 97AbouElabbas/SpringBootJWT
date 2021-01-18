@@ -1,5 +1,5 @@
 # Restful API with JWT token based Authentication
-![JWT](https://www.javainuse.com/62-12-min.JPG)
+![JWT](https://drive.google.com/file/d/1_6kUjbpkzzqH8Kt3BYkkPkjbZDRzQUBf/view?usp=sharing)
 ## Maven Dependences
 ````
 <dependency>
