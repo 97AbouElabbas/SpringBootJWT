@@ -1,7 +1,7 @@
 # Restful api with JWT token based Authentication
 ![JWT](https://www.javainuse.com/62-12-min.JPG)
 ## Maven Dependences
-''''
+````
     <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -34,4 +34,4 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-''''
+````
