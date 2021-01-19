@@ -60,3 +60,21 @@ CREATE TABLE HR.USERS
 	<scope>test</scope>
 </dependency>
 ````
+## Testing
+Testing can be done by send POST request containing user JSON object in request body
+````
+http://localhost:8080/authentication
+````
+````
+{
+    "username":"admin",
+    "password":"admin"
+}
+````
+It returns JWT token 
+````
+{
+    "jwt_TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTYxMTA4Mzk2MywiaWF0IjoxNjExMDQ3OTYzfQ.WTOMvfL4QxIFK0anxXvZkVjzFrYH_uHCTQCMZik8dac"
+}
+````
+Then you can access the rest of APIs by adding the JWT token on http header in Authorization variable.
