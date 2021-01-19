@@ -70,6 +70,7 @@ http://localhost:8080/authentication
     "password":"admin"
 }
 ````
+![AUTH](https://drive.google.com/uc?export=view&id=1gy-azAGtXQErR0Y0VR7Elb-tgrEQcDyZ)
 It returns JWT token 
 ````
 {
@@ -77,3 +78,4 @@ It returns JWT token
 }
 ````
 Then you can access the rest of APIs by adding the JWT token on http header in Authorization variable.
+![API](https://drive.google.com/uc?export=view&id=1QXYZ9rXqihwYTsghX734wCMTdVEvJ_dl)
