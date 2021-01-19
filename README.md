@@ -14,7 +14,6 @@ spring.datasource.password=HR
 # Hibernate additional native properties to set on the JPA provider.
 # To support multiple sessions
 spring.jpa.properties.hibernate.current_session_context_class=thread
-## Database tables
 ````
 ## Database table
 ````
