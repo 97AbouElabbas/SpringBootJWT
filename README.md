@@ -1,7 +1,22 @@
 # Restful API with JWT token based Authentication
 JSON Web Token (JWT) is an Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims.
 ![JWT](https://drive.google.com/uc?export=view&id=1V-gPjbrpXrL1yI03DgOxzT38Dq40MUpF)
+## application.properties
+````
+# Oracle settings
+# JDBC URL of the database.
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:ORCL
+# Login username of the database.
+spring.datasource.username=HR
+# Login password of the database.
+spring.datasource.password=HR
+
+# Hibernate additional native properties to set on the JPA provider.
+# To support multiple sessions
+spring.jpa.properties.hibernate.current_session_context_class=thread
 ## Database tables
+````
+## Database table
 ````
 CREATE TABLE HR.USERS
 (
